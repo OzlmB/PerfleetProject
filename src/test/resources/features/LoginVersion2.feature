@@ -85,8 +85,8 @@ Feature: Login (As a user, I should be able to login.)
   Scenario: User can use "Enter" button on login page
     Given the user is on the login page
     And the user enters the "valid" username input
-    When the user press on "Enter" button on keyboard
-    Then the user enters the "valid" password input
+    And the user press on "Enter" button on keyboard
+    And the user enters the "valid" password input
     When the user press on "Enter" button on keyboard
     Then the user should land on the "Dashboard" page
 
