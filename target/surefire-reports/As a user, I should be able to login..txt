@@ -1,0 +1,16 @@
+-------------------------------------------------------------------------------
+Test set: As a user, I should be able to login.
+-------------------------------------------------------------------------------
+Tests run: 4, Failures: 4, Errors: 0, Skipped: 0, Time elapsed: 50.538 s <<< FAILURE! - in As a user, I should be able to login.
+User can change their password with the username(As a user, I should be able to login.)  Time elapsed: 13.006 s  <<< FAILURE!
+org.junit.ComparisonFailure: Update Message expected:<[Success]> but was:<[Unable to send the email.]>
+
+Driver can see their own usernames in profile menu, after successful login(As a user, I should be able to login.)  Time elapsed: 11.242 s  <<< FAILURE!
+org.junit.ComparisonFailure: expected:<[user1]> but was:<[John Doe]>
+
+Store manager can see their own usernames in profile menu, after successful login(As a user, I should be able to login.)  Time elapsed: 12.546 s  <<< FAILURE!
+org.junit.ComparisonFailure: expected:<[storemanager85]> but was:<[John Doe]>
+
+Sales manager can see their own usernames in profile menu, after successful login(As a user, I should be able to login.)  Time elapsed: 13.743 s  <<< FAILURE!
+org.junit.ComparisonFailure: expected:<[salesmanager101]> but was:<[John Doe]>
+

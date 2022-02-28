@@ -1,0 +1,76 @@
+-------------------------------------------------------------------------------
+Test set: Account types
+-------------------------------------------------------------------------------
+Tests run: 4, Failures: 0, Errors: 4, Skipped: 0, Time elapsed: 52.167 s <<< FAILURE! - in Account types
+Driver user(Account types)  Time elapsed: 30.833 s  <<< ERROR!
+org.openqa.selenium.SessionNotCreatedException: 
+Could not start a new session. Could not start a new session. Error while creating session with the driver service. Stopping driver service: Could not start a new session. Response code 500. Message: session not created: This version of ChromeDriver only supports Chrome version 99
+Current browser version is 98.0.4758.102 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe
+Build info: version: '4.1.2', revision: '9a5a329c5a'
+System info: host: 'EC2AMAZ-NVR1QDB', ip: '172.31.18.255', os.name: 'Windows Server 2019', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: driver.version: unknown
+Build info: version: '4.1.2', revision: '9a5a329c5a'
+System info: host: 'EC2AMAZ-NVR1QDB', ip: '172.31.18.255', os.name: 'Windows Server 2019', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: driver.version: unknown
+Build info: version: '4.1.2', revision: '9a5a329c5a'
+System info: host: 'EC2AMAZ-NVR1QDB', ip: '172.31.18.255', os.name: 'Windows Server 2019', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: driver.version: unknown
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Naziks-MacBook-Pro.local', ip: 'fdb3:8e29:cbeb:46f1:462:8a99:c773:171f%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '12.1', java.version: '17.0.1'
+Driver info: driver.version: Driver
+remote stacktrace: [{fileName=RemoteNode.java, moduleVersion=null, nativeMethod=false, moduleName=null, methodName=newSession, className=org.openqa.selenium.grid.node.remote.RemoteNode, lineNumber=149, classLoaderName=app}, {fileName=LocalDistributor.java, moduleVersion=null, nativeMethod=false, moduleName=null, methodName=startSession, className=org.openqa.selenium.grid.distributor.local.LocalDistributor, lineNumber=581, classLoaderName=app}, {fileName=LocalDistributor.java, moduleVersion=null, nativeMethod=false, moduleName=null, methodName=newSession, className=org.openqa.selenium.grid.distributor.local.LocalDistributor, lineNumber=508, classLoaderName=app}, {fileName=LocalDistributor.java, moduleVersion=null, nativeMethod=false, moduleName=null, methodName=handleNewSessionRequest, className=org.openqa.selenium.grid.distributor.local.LocalDistributor$NewSessionRunnable, lineNumber=718, classLoaderName=app}, {fileName=LocalDistributor.java, moduleVersion=null, nativeMethod=false, moduleName=null, methodName=lambda$run$1, className=org.openqa.selenium.grid.distributor.local.LocalDistributor$NewSessionRunnable, lineNumber=679, classLoaderName=app}, {fileName=ThreadPoolExecutor.java, moduleVersion=17.0.2, nativeMethod=false, moduleName=java.base, methodName=runWorker, className=java.util.concurrent.ThreadPoolExecutor, lineNumber=1136, classLoaderName=null}, {fileName=ThreadPoolExecutor.java, moduleVersion=17.0.2, nativeMethod=false, moduleName=java.base, methodName=run, className=java.util.concurrent.ThreadPoolExecutor$Worker, lineNumber=635, classLoaderName=null}, {fileName=Thread.java, moduleVersion=17.0.2, nativeMethod=false, moduleName=java.base, methodName=run, className=java.lang.Thread, lineNumber=833, classLoaderName=null}]
+
+Driver user(Account types)  Time elapsed: 0 s  <<< ERROR!
+org.openqa.selenium.SessionNotCreatedException: 
+Could not start a new session. Could not start a new session. Error while creating session with the driver service. Stopping driver service: Could not start a new session. Response code 500. Message: session not created: This version of ChromeDriver only supports Chrome version 99
+Current browser version is 98.0.4758.102 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe
+Build info: version: '4.1.2', revision: '9a5a329c5a'
+System info: host: 'EC2AMAZ-NVR1QDB', ip: '172.31.18.255', os.name: 'Windows Server 2019', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: driver.version: unknown
+Build info: version: '4.1.2', revision: '9a5a329c5a'
+System info: host: 'EC2AMAZ-NVR1QDB', ip: '172.31.18.255', os.name: 'Windows Server 2019', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: driver.version: unknown
+Build info: version: '4.1.2', revision: '9a5a329c5a'
+System info: host: 'EC2AMAZ-NVR1QDB', ip: '172.31.18.255', os.name: 'Windows Server 2019', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: driver.version: unknown
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Naziks-MacBook-Pro.local', ip: 'fdb3:8e29:cbeb:46f1:462:8a99:c773:171f%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '12.1', java.version: '17.0.1'
+Driver info: driver.version: Driver
+remote stacktrace: [{fileName=RemoteNode.java, moduleVersion=null, nativeMethod=false, moduleName=null, methodName=newSession, className=org.openqa.selenium.grid.node.remote.RemoteNode, lineNumber=149, classLoaderName=app}, {fileName=LocalDistributor.java, moduleVersion=null, nativeMethod=false, moduleName=null, methodName=startSession, className=org.openqa.selenium.grid.distributor.local.LocalDistributor, lineNumber=581, classLoaderName=app}, {fileName=LocalDistributor.java, moduleVersion=null, nativeMethod=false, moduleName=null, methodName=newSession, className=org.openqa.selenium.grid.distributor.local.LocalDistributor, lineNumber=508, classLoaderName=app}, {fileName=LocalDistributor.java, moduleVersion=null, nativeMethod=false, moduleName=null, methodName=handleNewSessionRequest, className=org.openqa.selenium.grid.distributor.local.LocalDistributor$NewSessionRunnable, lineNumber=718, classLoaderName=app}, {fileName=LocalDistributor.java, moduleVersion=null, nativeMethod=false, moduleName=null, methodName=lambda$run$1, className=org.openqa.selenium.grid.distributor.local.LocalDistributor$NewSessionRunnable, lineNumber=679, classLoaderName=app}, {fileName=ThreadPoolExecutor.java, moduleVersion=17.0.2, nativeMethod=false, moduleName=java.base, methodName=runWorker, className=java.util.concurrent.ThreadPoolExecutor, lineNumber=1136, classLoaderName=null}, {fileName=ThreadPoolExecutor.java, moduleVersion=17.0.2, nativeMethod=false, moduleName=java.base, methodName=run, className=java.util.concurrent.ThreadPoolExecutor$Worker, lineNumber=635, classLoaderName=null}, {fileName=Thread.java, moduleVersion=17.0.2, nativeMethod=false, moduleName=java.base, methodName=run, className=java.lang.Thread, lineNumber=833, classLoaderName=null}]
+
+Store manager user(Account types)  Time elapsed: 21.332 s  <<< ERROR!
+org.openqa.selenium.SessionNotCreatedException: 
+Could not start a new session. Could not start a new session. Error while creating session with the driver service. Stopping driver service: Could not start a new session. Response code 500. Message: session not created: This version of ChromeDriver only supports Chrome version 99
+Current browser version is 98.0.4758.102 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe
+Build info: version: '4.1.2', revision: '9a5a329c5a'
+System info: host: 'EC2AMAZ-NVR1QDB', ip: '172.31.18.255', os.name: 'Windows Server 2019', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: driver.version: unknown
+Build info: version: '4.1.2', revision: '9a5a329c5a'
+System info: host: 'EC2AMAZ-NVR1QDB', ip: '172.31.18.255', os.name: 'Windows Server 2019', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: driver.version: unknown
+Build info: version: '4.1.2', revision: '9a5a329c5a'
+System info: host: 'EC2AMAZ-NVR1QDB', ip: '172.31.18.255', os.name: 'Windows Server 2019', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: driver.version: unknown
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Naziks-MacBook-Pro.local', ip: 'fdb3:8e29:cbeb:46f1:462:8a99:c773:171f%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '12.1', java.version: '17.0.1'
+Driver info: driver.version: Driver
+remote stacktrace: [{fileName=RemoteNode.java, moduleVersion=null, nativeMethod=false, moduleName=null, methodName=newSession, className=org.openqa.selenium.grid.node.remote.RemoteNode, lineNumber=149, classLoaderName=app}, {fileName=LocalDistributor.java, moduleVersion=null, nativeMethod=false, moduleName=null, methodName=startSession, className=org.openqa.selenium.grid.distributor.local.LocalDistributor, lineNumber=581, classLoaderName=app}, {fileName=LocalDistributor.java, moduleVersion=null, nativeMethod=false, moduleName=null, methodName=newSession, className=org.openqa.selenium.grid.distributor.local.LocalDistributor, lineNumber=508, classLoaderName=app}, {fileName=LocalDistributor.java, moduleVersion=null, nativeMethod=false, moduleName=null, methodName=handleNewSessionRequest, className=org.openqa.selenium.grid.distributor.local.LocalDistributor$NewSessionRunnable, lineNumber=718, classLoaderName=app}, {fileName=LocalDistributor.java, moduleVersion=null, nativeMethod=false, moduleName=null, methodName=lambda$run$1, className=org.openqa.selenium.grid.distributor.local.LocalDistributor$NewSessionRunnable, lineNumber=679, classLoaderName=app}, {fileName=ThreadPoolExecutor.java, moduleVersion=17.0.2, nativeMethod=false, moduleName=java.base, methodName=runWorker, className=java.util.concurrent.ThreadPoolExecutor, lineNumber=1136, classLoaderName=null}, {fileName=ThreadPoolExecutor.java, moduleVersion=17.0.2, nativeMethod=false, moduleName=java.base, methodName=run, className=java.util.concurrent.ThreadPoolExecutor$Worker, lineNumber=635, classLoaderName=null}, {fileName=Thread.java, moduleVersion=17.0.2, nativeMethod=false, moduleName=java.base, methodName=run, className=java.lang.Thread, lineNumber=833, classLoaderName=null}]
+
+Store manager user(Account types)  Time elapsed: 0 s  <<< ERROR!
+org.openqa.selenium.SessionNotCreatedException: 
+Could not start a new session. Could not start a new session. Error while creating session with the driver service. Stopping driver service: Could not start a new session. Response code 500. Message: session not created: This version of ChromeDriver only supports Chrome version 99
+Current browser version is 98.0.4758.102 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe
+Build info: version: '4.1.2', revision: '9a5a329c5a'
+System info: host: 'EC2AMAZ-NVR1QDB', ip: '172.31.18.255', os.name: 'Windows Server 2019', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: driver.version: unknown
+Build info: version: '4.1.2', revision: '9a5a329c5a'
+System info: host: 'EC2AMAZ-NVR1QDB', ip: '172.31.18.255', os.name: 'Windows Server 2019', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: driver.version: unknown
+Build info: version: '4.1.2', revision: '9a5a329c5a'
+System info: host: 'EC2AMAZ-NVR1QDB', ip: '172.31.18.255', os.name: 'Windows Server 2019', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: driver.version: unknown
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Naziks-MacBook-Pro.local', ip: 'fdb3:8e29:cbeb:46f1:462:8a99:c773:171f%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '12.1', java.version: '17.0.1'
+Driver info: driver.version: Driver
+remote stacktrace: [{fileName=RemoteNode.java, moduleVersion=null, nativeMethod=false, moduleName=null, methodName=newSession, className=org.openqa.selenium.grid.node.remote.RemoteNode, lineNumber=149, classLoaderName=app}, {fileName=LocalDistributor.java, moduleVersion=null, nativeMethod=false, moduleName=null, methodName=startSession, className=org.openqa.selenium.grid.distributor.local.LocalDistributor, lineNumber=581, classLoaderName=app}, {fileName=LocalDistributor.java, moduleVersion=null, nativeMethod=false, moduleName=null, methodName=newSession, className=org.openqa.selenium.grid.distributor.local.LocalDistributor, lineNumber=508, classLoaderName=app}, {fileName=LocalDistributor.java, moduleVersion=null, nativeMethod=false, moduleName=null, methodName=handleNewSessionRequest, className=org.openqa.selenium.grid.distributor.local.LocalDistributor$NewSessionRunnable, lineNumber=718, classLoaderName=app}, {fileName=LocalDistributor.java, moduleVersion=null, nativeMethod=false, moduleName=null, methodName=lambda$run$1, className=org.openqa.selenium.grid.distributor.local.LocalDistributor$NewSessionRunnable, lineNumber=679, classLoaderName=app}, {fileName=ThreadPoolExecutor.java, moduleVersion=17.0.2, nativeMethod=false, moduleName=java.base, methodName=runWorker, className=java.util.concurrent.ThreadPoolExecutor, lineNumber=1136, classLoaderName=null}, {fileName=ThreadPoolExecutor.java, moduleVersion=17.0.2, nativeMethod=false, moduleName=java.base, methodName=run, className=java.util.concurrent.ThreadPoolExecutor$Worker, lineNumber=635, classLoaderName=null}, {fileName=Thread.java, moduleVersion=17.0.2, nativeMethod=false, moduleName=java.base, methodName=run, className=java.lang.Thread, lineNumber=833, classLoaderName=null}]
+

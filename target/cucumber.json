@@ -1,0 +1,168 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2022-02-28T19:35:10.480Z",
+        "before": [
+          {
+            "result": {
+              "duration": 5371405000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.perfleet.step_definitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 114,
+        "name": "User can use \"Enter\" button on login page",
+        "description": "",
+        "id": "login-(as-a-user--i-should-be-able-to-login.);user-can-use-\"enter\"-button-on-login-page",
+        "after": [
+          {
+            "result": {
+              "duration": 132725000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.perfleet.step_definitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 30316000,
+              "status": "passed"
+            },
+            "line": 115,
+            "name": "the user is on the login page",
+            "match": {
+              "location": "com.perfleet.step_definitions.LoginStepDefs.the_user_is_on_the_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 253289000,
+              "status": "passed"
+            },
+            "line": 116,
+            "name": "the user enters the \"valid\" username input",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"valid\"",
+                  "offset": 20
+                }
+              ],
+              "location": "com.perfleet.step_definitions.LoginStepDefs.the_user_enters_the_username_input(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 209529000,
+              "status": "passed"
+            },
+            "line": 117,
+            "name": "the user press on \"Enter\" button on keyboard",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Enter\"",
+                  "offset": 18
+                }
+              ],
+              "location": "com.perfleet.step_definitions.LoginStepDefs.the_user_press_on_button_on_keyboard(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 78697000,
+              "status": "passed"
+            },
+            "line": 118,
+            "name": "the user enters the \"valid\" password input",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"valid\"",
+                  "offset": 20
+                }
+              ],
+              "location": "com.perfleet.step_definitions.LoginStepDefs.the_user_enters_the_password_input(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3819510000,
+              "status": "passed"
+            },
+            "line": 119,
+            "name": "the user press on \"Enter\" button on keyboard",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Enter\"",
+                  "offset": 18
+                }
+              ],
+              "location": "com.perfleet.step_definitions.LoginStepDefs.the_user_press_on_button_on_keyboard(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 5150960000,
+              "status": "passed"
+            },
+            "line": 120,
+            "name": "the user should land on the \"Dashboard\" page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Dashboard\"",
+                  "offset": 28
+                }
+              ],
+              "location": "com.perfleet.step_definitions.LoginStepDefs.the_user_should_land_on_the_page(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@login"
+          },
+          {
+            "name": "@PERF-797"
+          },
+          {
+            "name": "@wip"
+          }
+        ]
+      }
+    ],
+    "name": "Login (As a user, I should be able to login.)",
+    "description": "",
+    "id": "login-(as-a-user--i-should-be-able-to-login.)",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/Login.feature",
+    "tags": [
+      {
+        "name": "@login",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
