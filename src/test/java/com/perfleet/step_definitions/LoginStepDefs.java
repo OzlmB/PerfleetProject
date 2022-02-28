@@ -135,7 +135,6 @@ public class LoginStepDefs {
 
     @Then("the user sees {string} checkbox")
     public void the_user_sees_checkbox(String checkboxText) {
-       //Assert.assertEquals(checkboxText, loginPage.rememberMeOnThisComputer.getText());
        Assert.assertTrue(loginPage.rememberMeOnThisComputer.getText().equals(checkboxText));
     }
 
@@ -143,7 +142,6 @@ public class LoginStepDefs {
     public void checkbox_is_clickable() throws InterruptedException {
         loginPage.rememberMeOnThisComputer.click();
         Thread.sleep(2000);
-        //Assert.assertTrue(Driver.get().findElement(By.id("remember_me")).getAttribute("checked").equals("true"));
         Assert.assertTrue(loginPage.rememberMeCheckbox.isSelected());
     }
 
